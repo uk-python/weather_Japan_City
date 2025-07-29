@@ -30,6 +30,7 @@ df.index = pd.to_datetime(df.index)
 # 曜日を日本語で表示するためのリスト
 weekdays = ['月', '火', '水', '木', '金', '土', '日']
 
+
 # x軸ラベルを「月日(曜日)」形式に
 labels = [''] * len(df.index)  # 空のラベルをデータの数だけ作成
 used_weekdays = set()  # すでに使われた曜日を重複せずに記録する
